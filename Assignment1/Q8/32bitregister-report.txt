@@ -1,0 +1,5 @@
+Register
+
+- To form a register, gate level modelling of a D-FlipFlop is used from the previous question.
+- The inputs are first sent to the D Latch, the outputs of which are fed to the gated SR Latch forming a D-FlipFlop circuit.
+- Using generate block 32 bits are called again and again to get the required 32 bit register. 
