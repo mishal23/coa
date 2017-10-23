@@ -1,0 +1,5 @@
+Basic interconnection network:
+
+VersionA: In this module, messages are passed between the two nodes periodically,and the output message received from one node is fed as an input message to the other. 
+
+VersionB: In this module, System A  send a message to System B at random time periods,and the random 4 output messages received from B is displayed.

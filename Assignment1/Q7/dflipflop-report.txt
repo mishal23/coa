@@ -1,0 +1,4 @@
+Single bit Sequential Memory Element
+
+- The implementation done here is gate level modelling for a D-FlipFlop.
+- The inputs are first sent to the D Latch, the outputs of which are fed to the gated SR Latch forming a D-FlipFlop circuit.

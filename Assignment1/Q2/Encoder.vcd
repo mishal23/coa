@@ -1,0 +1,40 @@
+$date
+	Sat Oct 14 21:06:12 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test $end
+$var wire 1 ! sum $end
+$var wire 1 " cy_out $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$scope module s $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 " cy_out $end
+$var wire 1 ! sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#20000
+1!
+1$
+#40000
+0$
+1#
+#60000
+0!
+1"
+1$
+#80000
