@@ -1,2 +1,2 @@
 # Computer Organization & Architecture
-Assignments of Course CO200-COA
+Assignments for Course CO200-COA
