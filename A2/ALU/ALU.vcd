@@ -1,0 +1,682 @@
+$date
+	Sun Oct 29 22:40:15 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test $end
+$var wire 1 ! zero_flag $end
+$var wire 1 " result $end
+$var reg 1 # Ainvert $end
+$var reg 1 $ Binvert $end
+$var reg 1 % a $end
+$var reg 1 & b $end
+$var reg 1 ' cy_in $end
+$var reg 2 ( op [1:0] $end
+$scope module f5 $end
+$var wire 1 # Ainvert $end
+$var wire 1 $ Binvert $end
+$var wire 1 ) _and $end
+$var wire 1 * _or $end
+$var wire 1 % a $end
+$var wire 1 & b $end
+$var wire 1 ' cy_in $end
+$var wire 2 + op [1:0] $end
+$var wire 1 , t $end
+$var wire 1 ! zero_flag $end
+$var wire 1 " result $end
+$var wire 1 - less1 $end
+$var wire 1 . less $end
+$var wire 1 / _sum $end
+$var wire 1 0 _carry $end
+$var wire 1 1 _b $end
+$var wire 1 2 _a $end
+$scope module f1 $end
+$var wire 1 % a1 $end
+$var wire 1 3 a2 $end
+$var wire 1 2 o $end
+$var wire 1 # select $end
+$var wire 1 4 t1 $end
+$var wire 1 5 t2 $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 & a1 $end
+$var wire 1 6 a2 $end
+$var wire 1 1 o $end
+$var wire 1 $ select $end
+$var wire 1 7 t1 $end
+$var wire 1 8 t2 $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 2 a $end
+$var wire 1 1 b $end
+$var wire 1 ' cy_in $end
+$var wire 1 0 cy_out $end
+$var wire 1 9 t3 $end
+$var wire 1 : t2 $end
+$var wire 1 ; t1 $end
+$var wire 1 / sum $end
+$scope module G1 $end
+$var wire 1 2 a $end
+$var wire 1 1 b $end
+$var wire 1 : cy_out $end
+$var wire 1 ; sum $end
+$upscope $end
+$scope module G2 $end
+$var wire 1 ; a $end
+$var wire 1 ' b $end
+$var wire 1 9 cy_out $end
+$var wire 1 / sum $end
+$upscope $end
+$upscope $end
+$scope module f4 $end
+$var wire 1 % a $end
+$var wire 1 & b $end
+$var wire 1 < cy_in $end
+$var wire 1 , cy_out $end
+$var wire 1 = t3 $end
+$var wire 1 > t2 $end
+$var wire 1 ? t1 $end
+$var wire 1 - sum $end
+$scope module G1 $end
+$var wire 1 % a $end
+$var wire 1 & b $end
+$var wire 1 > cy_out $end
+$var wire 1 ? sum $end
+$upscope $end
+$scope module G2 $end
+$var wire 1 ? a $end
+$var wire 1 < b $end
+$var wire 1 = cy_out $end
+$var wire 1 - sum $end
+$upscope $end
+$upscope $end
+$scope module f5 $end
+$var wire 1 ) a1 $end
+$var wire 1 * a2 $end
+$var wire 1 / a3 $end
+$var wire 1 " o $end
+$var wire 2 @ select [1:0] $end
+$var wire 1 A t1 $end
+$var wire 1 B t2 $end
+$var wire 1 C t3 $end
+$var wire 1 D t4 $end
+$var wire 1 . a4 $end
+$upscope $end
+$scope module f6 $end
+$var wire 1 2 a $end
+$var wire 1 1 b $end
+$var wire 1 E cy_in $end
+$var wire 1 , cy_out $end
+$var wire 1 F t3 $end
+$var wire 1 G t2 $end
+$var wire 1 H t1 $end
+$var wire 1 . sum $end
+$scope module G1 $end
+$var wire 1 2 a $end
+$var wire 1 1 b $end
+$var wire 1 G cy_out $end
+$var wire 1 H sum $end
+$upscope $end
+$scope module G2 $end
+$var wire 1 H a $end
+$var wire 1 E b $end
+$var wire 1 F cy_out $end
+$var wire 1 . sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0H
+0G
+0F
+1E
+1D
+1C
+1B
+1A
+b0 @
+0?
+0>
+0=
+1<
+0;
+0:
+09
+18
+17
+16
+15
+14
+13
+02
+01
+00
+x/
+1.
+1-
+0,
+b0 +
+0*
+0)
+b0 (
+x'
+0&
+0%
+0$
+0#
+0"
+1!
+$end
+#10000
+x0
+x9
+0.
+1F
+1;
+1H
+1*
+0!
+1,
+11
+0-
+1=
+06
+07
+1?
+1&
+#20000
+01
+12
+16
+17
+03
+04
+0&
+1%
+#30000
+1"
+09
+10
+1.
+0F
+0A
+0;
+1:
+0H
+1G
+1)
+1!
+11
+1-
+0=
+06
+07
+0?
+1>
+1&
+#40000
+0"
+00
+1A
+0:
+0G
+0*
+0)
+1B
+01
+02
+0,
+16
+17
+13
+14
+0>
+b1 (
+b1 +
+b1 @
+0&
+0%
+#50000
+x0
+1"
+x9
+0.
+1F
+0B
+1;
+1H
+1*
+0!
+1,
+11
+0-
+1=
+06
+07
+1?
+1&
+#60000
+01
+12
+16
+17
+03
+04
+0&
+1%
+#70000
+09
+10
+1.
+0F
+0;
+1:
+0H
+1G
+1)
+1!
+11
+1-
+0=
+06
+07
+0?
+1>
+1&
+#80000
+00
+0"
+0:
+0G
+0*
+0)
+1B
+01
+02
+0,
+0/
+16
+17
+13
+14
+0>
+b10 (
+b10 +
+b10 @
+0'
+0&
+0%
+#90000
+1"
+0C
+1/
+0.
+1F
+1;
+1H
+1*
+0!
+1,
+11
+0-
+1=
+06
+07
+1?
+1&
+#100000
+01
+12
+16
+17
+03
+04
+0&
+1%
+#110000
+0"
+1C
+0/
+10
+1.
+0F
+0;
+1:
+0H
+1G
+1)
+1!
+11
+1-
+0=
+06
+07
+0?
+1>
+1&
+#120000
+19
+10
+0.
+1F
+0"
+1;
+0:
+1H
+0G
+0)
+1C
+02
+x,
+0/
+08
+16
+17
+13
+14
+0>
+1'
+1$
+0&
+0%
+#130000
+1"
+0C
+00
+1/
+09
+1.
+0F
+0;
+0H
+0*
+01
+0!
+x,
+18
+0-
+1=
+06
+1?
+1&
+#140000
+1"
+0C
+10
+1,
+1:
+1G
+1)
+1/
+09
+1.
+0F
+11
+0;
+0H
+1*
+08
+12
+16
+03
+04
+0&
+1%
+#150000
+0"
+1C
+0/
+19
+10
+0.
+1F
+1,
+1;
+0:
+1H
+0G
+0)
+01
+1!
+18
+1-
+0=
+06
+0?
+1>
+1&
+#160000
+1/
+09
+1.
+0F
+1"
+0;
+1:
+0H
+1G
+1)
+0B
+11
+08
+x,
+05
+16
+13
+14
+0>
+b1 (
+b1 +
+b1 @
+1#
+0&
+0%
+#170000
+0/
+19
+10
+0.
+1F
+1;
+0:
+1H
+0G
+0)
+01
+0!
+1,
+18
+0-
+1=
+06
+1?
+1&
+#180000
+11
+02
+08
+15
+16
+03
+0&
+1%
+#190000
+00
+x,
+0"
+1/
+09
+1.
+0F
+1B
+0;
+0H
+0*
+01
+1!
+18
+1-
+0=
+06
+0?
+1>
+1&
+#200000
+1"
+10
+0A
+1:
+1G
+1*
+1)
+11
+12
+08
+05
+x,
+16
+13
+0>
+b0 (
+b0 +
+b0 @
+0&
+0%
+#210000
+0"
+0/
+19
+10
+0.
+1F
+1A
+1;
+0:
+1H
+0G
+0)
+01
+0!
+1,
+18
+0-
+1=
+06
+1?
+1&
+#220000
+11
+02
+08
+15
+16
+03
+0&
+1%
+#230000
+00
+x,
+1/
+09
+1.
+0F
+0;
+0H
+0*
+01
+1!
+18
+1-
+0=
+06
+0?
+1>
+1&
+#240000
+10
+0/
+19
+0.
+1F
+1;
+1H
+1*
+0"
+12
+1D
+05
+x,
+16
+13
+0>
+b11 (
+b11 +
+b11 @
+0$
+0&
+0%
+#250000
+1"
+0D
+1/
+09
+1.
+0F
+0;
+1:
+0H
+1G
+1)
+0!
+1,
+11
+0-
+1=
+06
+07
+1?
+1&
+#260000
+00
+x,
+0:
+0G
+0*
+0)
+02
+01
+15
+16
+17
+03
+0&
+1%
+#270000
+0"
+10
+1D
+1,
+0/
+19
+0.
+1F
+1;
+1H
+1*
+1!
+11
+1-
+0=
+06
+07
+0?
+1>
+1&
+#280000

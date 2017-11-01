@@ -1,0 +1,111 @@
+$date
+	Mon Oct 30 13:35:26 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$scope module tester $end
+$var wire 32 ! ReadData1 [31:0] $end
+$var wire 32 " ReadData2 [31:0] $end
+$var wire 1 # begintest $end
+$var reg 5 $ ReadRegister1 [4:0] $end
+$var reg 5 % ReadRegister2 [4:0] $end
+$var reg 1 & RegWrite $end
+$var reg 32 ' WriteData [31:0] $end
+$var reg 5 ( WriteRegister [4:0] $end
+$var reg 1 ) clock $end
+$var reg 1 * endtest $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x*
+0)
+b0 (
+b0 '
+0&
+b0 %
+b0 $
+0#
+b0 "
+b0 !
+$end
+#10
+0*
+1#
+#20
+bx "
+b10 %
+bx !
+b10 $
+1&
+b100110 '
+b10 (
+#25
+b100110 !
+b100110 "
+1)
+#30
+b1111 '
+0)
+#35
+b1111 !
+b1111 "
+1)
+#40
+bx "
+b11 %
+bx !
+b11 $
+0&
+b10000 '
+b11 (
+0)
+#45
+1)
+#50
+b11111 %
+b1000 $
+1&
+b1111011011 '
+b100 (
+0)
+#55
+1)
+#60
+b0 "
+b0 %
+b0 !
+b0 $
+b111001000 '
+b0 (
+0)
+#65
+1)
+#70
+b1100101010 '
+b10001 (
+0)
+#75
+1)
+#80
+b1111 "
+b10 %
+b1100101010 !
+b10001 $
+b101000011 '
+b10 (
+0)
+#85
+b101000011 "
+1)
+#90
+0)
+#95
+1*
+#110
